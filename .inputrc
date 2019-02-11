@@ -1,0 +1,23 @@
+# .inputrcファイルはキーボードに応じたキーボードマップを定める。このファイルは入力に関連するライブラリReadlineが利用するもので、このライブラリはbashなどのシェルから呼び出される。
+
+# 日本語環境設定
+set convert-meta off
+set output-meta on
+set input-meta on
+
+# 補完時に大文字小文字を無視
+set completion-ignore-case on
+
+# bashのビープ音を消す
+set bell-style none
+
+# 補完時にコマンド or ディレクトリか見てわかる
+set visible-stats on
+
+# 補完候補が複数あった場合にすぐに全部表示される
+set show-all-if-ambiguous on
+
+# コマンド履歴補完を賢くする
+# 先頭数文字だけ入力してからctrl + P or ctrl + N を押すと、それまでタイプした文字から始まる履歴だけを検索可能。
+"\C-n":history-search-forward
+"\C-p":history-search-backward
