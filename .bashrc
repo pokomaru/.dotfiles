@@ -1,6 +1,7 @@
 # エイリアス
 alias 'ls=ls --color=auto'
 alias 'open=xdg-open'
+alias 'python=python3'
 alias 'relogin=exec $SHELL -l'
 alias 'vim=nvim'
 
