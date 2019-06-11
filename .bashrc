@@ -1,9 +1,8 @@
 # エイリアス
-alias 'ls=ls --color=auto'
-alias 'open=xdg-open'
-alias 'python=python3'
-alias 'relogin=exec $SHELL -l'
-alias 'vim=nvim'
+alias ls='ls --color=auto'
+alias open='xdg-open'
+alias relogin='exec $SHELL -l'
+alias vim='nvim'
 
 # bashプロンプトの変更
 if [ -n "$SSH_CLIENT" ]; then text=" ssh-session"
