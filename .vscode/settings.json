@@ -1,0 +1,15 @@
+{
+    "workbench.activityBar.visible": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "--login"
+    ],
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "autopep8",
+    "window.zoomLevel": 0,
+    "vsicons.dontShowNewVersionMessage": true
+}
