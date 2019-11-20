@@ -10,4 +10,5 @@
     "python.formatting.provider": "autopep8",
     "window.zoomLevel": 0,
     "vsicons.dontShowNewVersionMessage": true,
+    "window.titleBarStyle": "custom",
 }
