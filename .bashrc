@@ -17,4 +17,4 @@ export PS1='\[\e[1;32m\]\u@\h:\w${text}$\[\e[m\] '
 eval $(dircolors ~/dircolors-solarized/dircolors.ansi-universal)
 
 # コンソール上で英語表示
-export LANG=en_US
+export LANG=en_US.UTF-8
