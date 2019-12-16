@@ -3,6 +3,7 @@ alias ls='ls --color=auto'
 alias open='xdg-open'
 alias pip='pip3'
 alias python='python3'
+alias vim='nvim'
 alias relogin='exec $SHELL -l'
 
 # bashプロンプトの変更
