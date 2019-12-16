@@ -1,23 +1,11 @@
 """ 設定
 "" neovimプラグインの設定(vim-plug)
 call plug#begin('~/.vim/plugged')
-
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'fenetikm/falcon'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-jp/vimdoc-ja'
 Plug 'Yggdroot/indentLine'
-Plug 'zchee/deoplete-jedi'
-
 call plug#end()
-
-" deopleteを使う
-let g:deoplete#enable_at_startup = 1
-
-let g:deoplete#sources#jedi#server_timeout=100
-let g:deoplete#sources#jedi#statement_length=100
-let g:jedi#completions_enabled = 0
 
 " 文字コードをutf-8に変換
 set fenc=utf-8
