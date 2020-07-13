@@ -31,10 +31,6 @@ syntax on
 " vimヘルプ日本語化
 set helplang=ja,en
 
-"" ビジュアル設定
-" neovimのカラーテーマ
-colorscheme falcon
-
 " vim-AirlineThemeの変更
 let g:airline_theme = 'papercolor'
 

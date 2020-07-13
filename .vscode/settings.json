@@ -1,14 +1,22 @@
 {
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "RedNeon",
-    "terminal.integrated.shellArgs.windows": [
-        "--login"
-    ],
+    "workbench.colorTheme": "Popping and Locking",
     "editor.formatOnPaste": true,
     "editor.formatOnType": true,
     "editor.formatOnSave": true,
     "python.formatting.provider": "autopep8",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "vsicons.dontShowNewVersionMessage": true,
     "window.titleBarStyle": "custom",
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    "python.pythonPath": "C:\\Users\\adlpc02\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "extensions.ignoreRecommendations": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.visible": true,
+    "files.autoSave": "off",
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.minimap.enabled": false
 }
