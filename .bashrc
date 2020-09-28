@@ -17,5 +17,7 @@ export PS1='\[\e[1;32m\]\u@\h:\w${text}$\[\e[m\] '
 # lsコマンドを使用したときの色変更
 eval $(dircolors ~/dircolors-solarized/dircolors.ansi-universal)
 
+# 文字コードをUTF-8
+export LANG=C.UTF-8
 # コンソール上で英語表示
 export LANG=en_US.UTF-8
